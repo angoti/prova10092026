@@ -12,6 +12,6 @@ public class Animal {
   private String nome;
   private String especie;
   private Integer idade;
-  private Integer tutor_id_tutor;
+  private Tutor tutor;
 
 }
