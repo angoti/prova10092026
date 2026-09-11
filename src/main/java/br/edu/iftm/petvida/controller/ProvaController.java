@@ -21,7 +21,7 @@ public class ProvaController {
   @Autowired
   TutorRepository tutorRepository;
 
-  @GetMapping("/ficha_53")
+  @GetMapping("/ficha_53")  
   public String getFicha(Model model) {
     Animal animal = animalRepository.buscarPorId(153);
     model.addAttribute("animal", animal);
